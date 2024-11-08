@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "limits-service",
+      "type": "com.jordiribellas.microservices.limits_service.configuration.Configuration",
+      "sourceType": "com.jordiribellas.microservices.limits_service.configuration.Configuration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limits-service.maximum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jordiribellas.microservices.limits_service.configuration.Configuration"
+    },
+    {
+      "name": "limits-service.minimum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.jordiribellas.microservices.limits_service.configuration.Configuration"
+    }
+  ],
+  "hints": []
+}
