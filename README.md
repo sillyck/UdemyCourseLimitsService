@@ -1,4 +1,4 @@
-# Spring Boot Microservices Practice Repository
+# UdemyCourseLimitsService
 
 This repository is created as a practice project to learn and implement microservices using Spring Boot. It follows the content and exercises from a Udemy course focused on mastering Spring Boot and Spring Cloud for developing microservices architecture.
 
