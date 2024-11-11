@@ -1,23 +1,24 @@
-# UdemyCourseLimitsService
+# Limits Service Project
 
-This repository is created as a practice project to learn and implement microservices using Spring Boot. It follows the content and exercises from a Udemy course focused on mastering Spring Boot and Spring Cloud for developing microservices architecture.
+This project is part of an application focused on limit management, developed using Spring Boot and related technologies to ensure a robust and modular architecture.
 
-## About the Course
-The course is offered on Udemy and covers key concepts of microservices, including building RESTful services, using Spring Cloud for service discovery, load balancing, API gateways, and containerization with Docker and Kubernetes.
+## Features
+- **REST API**: Provides a complete RESTful API for limit management.
+- **Data Persistence**: Configuration for handling data storage (check if JPA and a specific database are used).
+- **CRUD Operations**: Full Create, Read, Update, and Delete functionality.
+- **Dependency Injection**: Modular code using Spring's dependency injection.
+- **Exception Handling**: Centralized exception handling for better error management.
+- **Hot Reload**: Includes Spring Boot DevTools for faster development.
 
-The course and all related documentation are in English, and the primary objective of this repository is to apply the knowledge gained during the course in a practical, hands-on manner.
+## Technologies
+- **Java 21**
+- **Spring Boot 3.3.5**
+- **Maven**
 
-## Technologies Used
-- **Spring Boot**: Core framework for building RESTful web services.
-- **Spring Cloud**: Used for handling distributed systems, such as service discovery and load balancing.
-- **Docker**: Containerization for the microservices.
-- **Kubernetes**: Orchestration of containerized applications (planned in later sections of the course).
+## Getting Started
+To run the project locally, clone the repository, navigate to the project directory, and start the application:
+```bash
+mvn spring-boot:run
+```
 
-## Progress
-This repository is actively updated as I progress through different sections of the course. Each commit represents a step forward in the learning journey, implementing the concepts learned in a practical setting.
-
-## Contributions
-This repository is for personal learning purposes, and external contributions are not expected. However, if you'd like to provide feedback or suggestions, feel free to open an issue.
-
-## License
-This project is licensed under the MIT License.
+The application will run at http://localhost:8080.
